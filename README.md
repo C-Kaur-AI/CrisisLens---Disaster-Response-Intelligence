@@ -109,21 +109,25 @@ Raw Message → Preprocess → Language Detection → Relevance Classification
 
 ## 📸 Screenshots & evaluation figures
 
-| Asset | Description |
-|-------|-------------|
-| [Dashboard — Analyze](docs/screenshots/dashboard-analyze.png) | Input message + analysis result (relevance, type, urgency, locations). |
-| [Priority Feed](docs/screenshots/dashboard-priority-feed.png) | Urgency-sorted crisis messages with CSV export. |
-| [Crisis Map](docs/screenshots/dashboard-map.png) | Interactive map with crisis hotspots (Folium). |
-| [Analytics](docs/screenshots/dashboard-analytics.png) | Metrics, charts, and export. |
-| [API Docs](docs/screenshots/api-docs.png) | Swagger UI at `/docs`. |
+**Screenshots:** Add PNGs to `docs/screenshots/` (see [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) for filenames and capture steps): dashboard-analyze.png, dashboard-priority-feed.png, dashboard-map.png, dashboard-analytics.png, api-docs.png. Once added, they will appear under the repo’s `docs/screenshots/` path.
 
-**Evaluation figures** (generate with `python evaluate_plots.py --data data/raw/humaid/test.csv --model_path models/finetuned --output_dir docs/figures`):
+**Evaluation figures** (included in the repo):
 
-- **Confusion matrix** — TP, FP, TN, FN for relevance classification.
-- **ROC curve + AUC** — Ranking quality.
-- **Precision–Recall curve + AP** — When positives are rare.
+| Figure | Description |
+|--------|-------------|
+| Confusion matrix | TP, FP, TN, FN for relevance classification. |
+| ROC curve + AUC | Ranking quality. |
+| Precision–Recall curve + AP | When positives are rare. |
 
-See [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) for capture instructions and [docs/METRICS.md](docs/METRICS.md) for reproduction steps.
+![Confusion Matrix — Relevance classification](figures/confusion_matrix.png)
+
+![ROC Curve — AUC](figures/roc_curve.png)
+
+![Precision–Recall Curve — Average Precision](figures/precision_recall_curve.png)
+
+*To regenerate:* `python evaluate_plots.py --data data/raw/humaid/test.csv --model_path models/finetuned --output_dir figures`
+
+See [docs/METRICS.md](docs/METRICS.md) for full reproduction steps.
 
 ---
 
@@ -165,12 +169,6 @@ Reproduction and figures: **[docs/METRICS.md](docs/METRICS.md)**.
 - Explainability (e.g. which words drive relevance/type/urgency).
 - Real-time streams (e.g. Twitter/X, WhatsApp).
 - Stronger handling of implicit language; bias and fairness analysis.
-
----
-
-## Early-stage product direction (from PRD)
-
-During scoping, a related **product direction** was documented: **4D-VAD** (4D Visual Assessment of Acute Distress)—a *video-based* system to detect acute distress (panic/anxiety vs possible cardiac) from live camera or upload, with **speed-first** design: voice and video advice within seconds, LLM chatbot for follow-up, and clear disclaimers (not a medical device). That PRD focused on latency (e.g. detection in 15–30 s, advice playback in &lt;5 s), pre-recorded voice/video assets, and accessibility. CrisisLens is the **text/NLP** crisis pipeline; 4D-VAD represents a complementary, vision-and-physiology track for acute distress support.
 
 ---
 
