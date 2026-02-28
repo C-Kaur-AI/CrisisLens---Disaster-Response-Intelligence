@@ -1,0 +1,13 @@
+text,language,type,urgency
+"URGENT: Family of 4 trapped on 2nd floor in Hatay district, water rising fast. Please send rescue team! #TurkeyEarthquake",en,RESCUE_REQUEST,CRITICAL
+Necesitamos insulina urgente en el refugio de la escuela San Pedro. Hay 3 diabéticos sin medicamentos desde hace 2 días.,es,MEDICAL_EMERGENCY,CRITICAL
+Main bridge on Highway 7 completely collapsed. Road to hospital blocked. No alternative route available.,en,INFRASTRUCTURE_DAMAGE,HIGH
+"दिल्ली में पुल टूट गया है, मुख्य सड़क पूरी तरह बंद है। कई गाड़ियां फंसी हैं।",hi,INFRASTRUCTURE_DAMAGE,HIGH
+Le niveau d'eau monte rapidement dans le quartier Est de Lyon. Évacuation en cours.,fr,SITUATIONAL_UPDATE,MEDIUM
+نحتاج ماء وطعام عاجل في مخيم الإيواء بمدينة حلب. أكثر من 200 عائلة بدون إمدادات,ar,SUPPLY_REQUEST,HIGH
+300 families displaced from coastal area now sheltering in the local school gymnasium. Need blankets and food.,en,DISPLACEMENT,MEDIUM
+I have a truck and supplies. Can volunteer to deliver food to affected areas in Antakya region.,en,VOLUNTEER_OFFER,LOW
+At least 15 injured in building collapse at sector 7. Ambulances on scene but more needed.,en,CASUALTY_REPORT,HIGH
+Weather forecast shows more rain expected tonight. Flood risk remains high for the next 48 hours.,en,SITUATIONAL_UPDATE,MEDIUM
+Just had a great pizza at the new restaurant downtown. Best margherita ever! 🍕,en,NOT_CRISIS,NONE
+Beautiful sunset from my balcony tonight. Nature is amazing! 🌅,en,NOT_CRISIS,NONE

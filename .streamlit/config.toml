@@ -1,0 +1,9 @@
+# CrisisLens — Streamlit theme config
+# Dark theme + custom colors to match dashboard background
+
+[theme]
+base = "dark"
+primaryColor = "#667eea"
+backgroundColor = "#0f0c29"
+secondaryBackgroundColor = "#1a1a2e"
+textColor = "#ffffff"

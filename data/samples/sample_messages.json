@@ -1,0 +1,74 @@
+[
+  {
+    "text": "URGENT: Family of 4 trapped on 2nd floor in Hatay district, water rising fast. Please send rescue team! #TurkeyEarthquake",
+    "language": "en",
+    "type": "RESCUE_REQUEST",
+    "urgency": "CRITICAL"
+  },
+  {
+    "text": "Necesitamos insulina urgente en el refugio de la escuela San Pedro. Hay 3 diabéticos sin medicamentos desde hace 2 días.",
+    "language": "es",
+    "type": "MEDICAL_EMERGENCY",
+    "urgency": "CRITICAL"
+  },
+  {
+    "text": "Main bridge on Highway 7 completely collapsed. Road to hospital blocked. No alternative route available.",
+    "language": "en",
+    "type": "INFRASTRUCTURE_DAMAGE",
+    "urgency": "HIGH"
+  },
+  {
+    "text": "दिल्ली में पुल टूट गया है, मुख्य सड़क पूरी तरह बंद है। कई गाड़ियां फंसी हैं।",
+    "language": "hi",
+    "type": "INFRASTRUCTURE_DAMAGE",
+    "urgency": "HIGH"
+  },
+  {
+    "text": "Le niveau d'eau monte rapidement dans le quartier Est de Lyon. Évacuation en cours.",
+    "language": "fr",
+    "type": "SITUATIONAL_UPDATE",
+    "urgency": "MEDIUM"
+  },
+  {
+    "text": "نحتاج ماء وطعام عاجل في مخيم الإيواء بمدينة حلب. أكثر من 200 عائلة بدون إمدادات",
+    "language": "ar",
+    "type": "SUPPLY_REQUEST",
+    "urgency": "HIGH"
+  },
+  {
+    "text": "300 families displaced from coastal area now sheltering in the local school gymnasium. Need blankets and food.",
+    "language": "en",
+    "type": "DISPLACEMENT",
+    "urgency": "MEDIUM"
+  },
+  {
+    "text": "I have a truck and supplies. Can volunteer to deliver food to affected areas in Antakya region.",
+    "language": "en",
+    "type": "VOLUNTEER_OFFER",
+    "urgency": "LOW"
+  },
+  {
+    "text": "At least 15 injured in building collapse at sector 7. Ambulances on scene but more needed.",
+    "language": "en",
+    "type": "CASUALTY_REPORT",
+    "urgency": "HIGH"
+  },
+  {
+    "text": "Weather forecast shows more rain expected tonight. Flood risk remains high for the next 48 hours.",
+    "language": "en",
+    "type": "SITUATIONAL_UPDATE",
+    "urgency": "MEDIUM"
+  },
+  {
+    "text": "Just had a great pizza at the new restaurant downtown. Best margherita ever! 🍕",
+    "language": "en",
+    "type": "NOT_CRISIS",
+    "urgency": "NONE"
+  },
+  {
+    "text": "Beautiful sunset from my balcony tonight. Nature is amazing! 🌅",
+    "language": "en",
+    "type": "NOT_CRISIS",
+    "urgency": "NONE"
+  }
+]

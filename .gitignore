@@ -1,0 +1,80 @@
+# CrisisLens — Git ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env.local
+.env.*.local
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.envrc
+*.pem
+
+# Data (large or downloaded)
+data/raw/
+data/processed/
+*.bin
+*.lid
+!data/download_datasets.py
+
+# Models (large; share via Hugging Face or instructions)
+models/
+*.bin
+*.safetensors
+!config/
+
+# Evaluation outputs (optional: commit sample results if small)
+evaluation_results.json
+test_results.json
+# figures/  — uncomment to ignore generated plots; keep if you commit screenshots
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff / Black
+.ruff_cache/

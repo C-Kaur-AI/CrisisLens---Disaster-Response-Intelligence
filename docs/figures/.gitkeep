@@ -1,0 +1,2 @@
+# Optional: run evaluate_plots.py --output_dir docs/figures to add
+# confusion_matrix.png, roc_curve.png, precision_recall_curve.png
